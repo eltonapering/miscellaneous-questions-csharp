@@ -1,0 +1,6 @@
+@SumApi_HostAddress = http://localhost:5004
+
+GET {{SumApi_HostAddress}}/sum/
+Accept: application/json
+
+###
