@@ -1,5 +1,5 @@
 
-VocÍ pode testar a API executando o projeto e fazendo uma requisiÁ„o GET, por exemplo:
+### Voc√™ pode testar a API executando o projeto e fazendo uma requisi√ß√£o GET, por exemplo:
 
 http://localhost:5004/sum?a=5&b=10
 
@@ -8,14 +8,14 @@ http://localhost:5004/sum?a=5&b=10
 }
 
 
---
+## 
 
 
-Se passar um par‚metro inv·lido:
+### Se passar um par√¢metro inv√°lido:
 
 GET http://localhost:5000/sum?a=abc&b=10
 
 {
-    "error": "O par‚metro 'a' n„o È um n˙mero v·lido: abc"
+    "error": "O par√¢metro 'a' n√£o √© um n√∫mero v√°lido: abc"
 }
 
